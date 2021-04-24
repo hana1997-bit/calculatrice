@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  }
+   
+   
+  body{
+    background: #5c5858;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #nul{
+    width: 75px;
+    height: 40px;
+    position: relative;
+    left: -77px;
+    top: -40px;
+    background: #000;
+    color: #fff;
+    border: gray solid 1px;
+    cursor: pointer;
+    border-radius: 100%;
+    font-size: 120%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  #nul:hover{
+    background: #fff;
+    color: #000;
+  }
+   
+  .container{
+    width: 40%;
+    position: relative;
+    left: 500px;
+    top: 10px;
+    background: rgb(37, 34, 34);
+    height: 420px;
+    width: 360px;
+    border-radius: 10px;
+   
+   
+  }
+   
+  .numss{
+    width: 75px;
+    height: 40px;
+    position: relative;
+    left: -78px;
+    top: -40px;
+    background: #000;
+    color: #fff;
+    border: gray solid 1px;
+    cursor: pointer;
+    border-radius: 100%;
+    font-size: 120%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+  }
+  .numss:hover{
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  #eq{
+    width: 230px;
+    height: 50px;
+    position: relative;
+    top: -240px;
+    left: -73px;
+    cursor: pointer;
+    background: rgb(0, 122, 6);
+    color: #fff;
+    font-size: 120%;
+    border-radius: 5px;
+    border: gray solid 1px;
+   
+  }
+   
+  .nums{
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+  }
+   
+  .calc{
+    display: grid;
+    grid-template-rows: repeat(1, 40px);
+    position: relative;
+    left: 240px;
+    top: -158px;
+   
+  }
+   
+  .tst{
+    position: relative;
+    left: 100px;
+    top: 50px;
+  }
+  .tst-2{
+    margin-top: 50px;
+    border-radius: 5px;
+   
+  }
+  #rez{
+    height: 65px;
+    width: 300px;
+    border-radius: 8px;
+    position: relative;
+    left: -18px;
+    top: 0px;
+    box-shadow: 5px 5px 10px rgb(1, 102, 1);
+   
+   
+  }
+   
+  .inputrez{
+    border: rgb(255, 254, 254) solid 3px;
+    margin: 15px;
+    padding: 20px 30px;
+    position: relative;
+    left: -100px;
+    top: -15px;
+    border-radius: 8px;
+    box-shadow: -2px -2px 5px #f00;
+  }
+  #num{
+    border-radius: 5px;
+    width: 75px;
+    height: 50px;
+    background: #000;
+    color: #fff;
+    border: #757575 solid 1px;
+    cursor: pointer;
+    position: relative;
+    left: -77px;
+    top: -32px;
+    font-size: 120%;
+  }
+   
+  #num:hover{
+   background: #757575;
+   color: #000;
+  }
